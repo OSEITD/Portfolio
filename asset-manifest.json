@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/OSEITD/Portfolio/static/css/main.0a44674e.css",
+    "main.js": "/OSEITD/Portfolio/static/js/main.57bc481a.js",
+    "static/js/453.1407b060.chunk.js": "/OSEITD/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/osei.JPG": "/OSEITD/Portfolio/static/media/osei.e2a7b55cb2420401a333.JPG",
+    "static/media/Free Vector _ Spot Light Background.jpeg": "/OSEITD/Portfolio/static/media/Free Vector _ Spot Light Background.a3a84190be440c219543.jpeg",
+    "index.html": "/OSEITD/Portfolio/index.html",
+    "main.0a44674e.css.map": "/OSEITD/Portfolio/static/css/main.0a44674e.css.map",
+    "main.57bc481a.js.map": "/OSEITD/Portfolio/static/js/main.57bc481a.js.map",
+    "453.1407b060.chunk.js.map": "/OSEITD/Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a44674e.css",
+    "static/js/main.57bc481a.js"
+  ]
+}
