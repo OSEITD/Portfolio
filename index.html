@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A bold developer portfolio with interactive storytelling and showcase-ready sections." />
+    <title>Portfolio | Bold Developer Presence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+    <div class="backdrop__glow" aria-hidden="true"></div>
+    <header class="site-header">
+        <div class="logo" aria-label="Personal monogram">&lt;DevNucleus /&gt;</div>
+        <nav>
+            <a href="#hero">Intro</a>
+            <a href="#showcase">Builds</a>
+            <a href="#timeline">Path</a>
+            <a href="#terminal">Console</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="cta-ghost" data-scroll="#contact">Collaborate</button>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero__content">
+                <p class="eyebrow">Crafting unapologetically technical products</p>
+                <h1>Hey, I'm <span class="accent">Osei Mupeta</span></h1>
+                <h2 class="typewriter" aria-live="polite">Building human-grade software.</h2>
+                <p class="lead">Full-stack engineer from Lusaka shipping resilient experiences—agritech dashboards, immersive storefronts, and the tooling that keeps them alive.</p>
+                <div class="hero__actions">
+                    <a class="cta-solid" href="#showcase">Explore Work</a>
+                    <a class="cta-link" href="#contact">Book a Call →</a>
+                </div>
+                <ul class="hero__metrics">
+                    <li>
+                        <span class="metric">47</span>
+                        <span class="label">prod pushes this year</span>
+                    </li>
+                    <li>
+                        <span class="metric">12</span>
+                        <span class="label">products rescued</span>
+                    </li>
+                    <li>
+                        <span class="metric">∞</span>
+                        <span class="label">ideas in motion</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="hero__visual" aria-label="Portrait of Osei Mupeta">
+                <div class="photo-frame">
+                    <img src="assets/img/BN.png" alt="Portrait of Osei Mupeta" loading="lazy" />
+                </div>
+                <div class="signal-card">
+                    <p class="signal-label">Now Coding</p>
+                    <p class="signal-body">Realtime devtools for creative coders</p>
+                    <span class="signal-dot" aria-hidden="true"></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="showcase" class="showcase">
+            <div class="section-heading">
+                <p class="eyebrow">Flagship builds</p>
+                <h3>Projects that prove it</h3>
+                <p>Each build pairs rigorous engineering with playful polish. Hover to peek into the stack and outcomes.</p>
+            </div>
+            <div class="showcase__grid">
+                <article class="project-card">
+                    <div class="project-card__tag">Live</div>
+                    <h4>ZamGrow</h4>
+                    <p>Farmer-first agritech platform tracking yields, pricing, and extension data for Zambian growers.</p>
+                    <ul>
+                        <li>Responsive PWA dashboard</li>
+                        <li>Offline-ready data sync</li>
+                        <li>Actionable agronomy tips</li>
+                    </ul>
+                    <a class="project-card__footer" href="https://zamgrow.netlify.app/" target="_blank" rel="noreferrer noopener">Visit zamgrow.netlify.app →</a>
+                </article>
+                <article class="project-card">
+                    <div class="project-card__tag">Live</div>
+                    <h4>Dreamy Frosted Bites</h4>
+                    <p>Micro-bakery storefront with delightful UX, order tracking, and storytelling-rich visuals.</p>
+                    <ul>
+                        <li>Jamstack storefront</li>
+                        <li>Inventory-aware listings</li>
+                        <li>Motion-infused UI</li>
+                    </ul>
+                    <a class="project-card__footer" href="https://dreamyfrostedbites.netlify.app/" target="_blank" rel="noreferrer noopener">Explore dreamy site →</a>
+                </article>
+                <article class="project-card">
+                    <div class="project-card__tag">Github</div>
+                    <h4>Open-source Drops</h4>
+                    <p>Experiments, utilities, and rapid-fire prototypes that fuel my production work.</p>
+                    <ul>
+                        <li>DX accelerators</li>
+                        <li>Creative coding snippets</li>
+                        <li>Realtime tooling</li>
+                    </ul>
+                    <a class="project-card__footer" href="https://github.com/OSEITD" target="_blank" rel="noreferrer noopener">Browse github.com/OSEITD →</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="timeline" class="timeline">
+            <div class="section-heading">
+                <p class="eyebrow">Build log</p>
+                <h3>Trajectory, not titles</h3>
+                <p>Snapshots of how I evolve systems, teams, and ideas.</p>
+            </div>
+            <ol>
+                <li>
+                    <span>2025</span>
+                    <h4>Architected adaptive tooling</h4>
+                    <p>Lead a task-force replatforming dev environments to self-heal based on usage telemetry.</p>
+                </li>
+                <li>
+                    <span>2024</span>
+                    <h4>Launched intent-driven commerce</h4>
+                    <p>Built an AI merch stack that syncs personalization, supply, and fulfillment in milliseconds.</p>
+                </li>
+                <li>
+                    <span>2023</span>
+                    <h4>Scaled field-ready analytics</h4>
+                    <p>Deployed ruggedized dashboards with offline-first sync across 9 countries.</p>
+                </li>
+            </ol>
+        </section>
+
+        <section id="terminal" class="terminal">
+            <div class="section-heading">
+                <p class="eyebrow">Interactive resume</p>
+                <h3>Ask the console</h3>
+                <p>Type <code>help</code>, <code>skills</code>, <code>projects</code>, or <code>contact</code>. It's a nod to the tooling I live in.</p>
+            </div>
+            <div class="terminal__screen" role="application" aria-label="Portfolio console">
+                <div class="terminal__output" id="terminalOutput">
+                    <div class="line">booting portfolio@dev...</div>
+                    <div class="line">type "help" to explore.</div>
+                </div>
+                <form class="terminal__form" id="terminalForm">
+                    <span>$</span>
+                    <input type="text" id="terminalInput" autocomplete="off" placeholder="run a command" aria-label="Terminal command" />
+                </form>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-heading">
+                <p class="eyebrow">Open channel</p>
+                <h3>Let's build the next thing</h3>
+                <p>Available for fractional engineering leadership, prototyping sprints, or shipping resilient MVPs.</p>
+            </div>
+            <div class="contact__grid">
+                <article class="contact-card">
+                    <h4>WhatsApp Direct</h4>
+                    <p><a class="inline-link" href="https://wa.me/260761986849" target="_blank" rel="noreferrer noopener">+260 761 986 849</a></p>
+                    <p>Quickest path for status updates, pairing sessions, or deployment approvals.</p>
+                </article>
+                <article class="contact-card">
+                    <h4>Social Bandwidth</h4>
+                    <ul class="social-links">
+                        <li><a href="https://www.facebook.com/osei.mupeta/" target="_blank" rel="noreferrer noopener">Facebook</a></li>
+                        <li><a href="https://www.linkedin.com/in/osei-mupeta-88544a27" target="_blank" rel="noreferrer noopener">LinkedIn</a></li>
+                        <li><a href="https://www.instagram.com/osei_blue/?__pwa=1#" target="_blank" rel="noreferrer noopener">Instagram</a></li>
+                    </ul>
+                </article>
+                <article class="contact-card">
+                    <h4>GitHub Pulse</h4>
+                    <p><a class="inline-link" href="https://github.com/OSEITD" target="_blank" rel="noreferrer noopener">github.com/OSEITD</a></p>
+                    <p>Follow the commits that power these case studies.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Built with intent. Deploy-ready as of 2025.</p>
+        <button class="cta-ghost" data-scroll="#hero">Back to top</button>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
